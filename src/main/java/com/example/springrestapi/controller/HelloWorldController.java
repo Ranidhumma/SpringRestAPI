@@ -1,5 +1,4 @@
 package com.example.springrestapi.controller;
-
 import com.example.springrestapi.entity.User;
 import org.springframework.web.bind.annotation.*;
 
@@ -47,6 +46,14 @@ public class HelloWorldController {
         return "Hello " + name + " !";
     }
     /*
+     * UC3
+     * Make REST Call to show Hello
+     * Mark from BridgeLabz
+     * - Use GET Request Method and pass name as
+     * path variable
+     * - Use CURL to demonstrate the REST API Call
+     * - curl localhost:8080/hello/param/Mark -w
+     * "\n"
      * @return Hello Rani from bridgelabz !
      */
 
