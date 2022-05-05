@@ -31,7 +31,7 @@ public class HelloWorldController {
      * - Use CURL to demonstrate the REST API Call
      * - curl localhost:8080/hello/query?name=Rani
      * -w "\n"
-     * @return Hello Rani from Bridgelabz !!
+     * @return Hello Rani from Bridgelabz  !!
      */
 
     @RequestMapping(value = {"/query"}, method = RequestMethod.GET)
